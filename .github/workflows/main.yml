@@ -2,13 +2,12 @@ name: airport-checkin
 
 on:
   push
-  schedule:
-    - cron:  '2 7,16 * * *'
 
 jobs:
   build:
-    runs-on: ubuntu-latest    
-  steps:
+    runs-on: ubuntu-latest
+    
+    steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
