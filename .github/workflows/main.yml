@@ -20,4 +20,4 @@ jobs:
         pip install requests
         
     - name: run codes
-      run: python main.py
+      run: python main1.py
