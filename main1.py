@@ -7,7 +7,7 @@ requests.packages.urllib3.disable_warnings()
 def checkin():
     email='ljh_alter@163.com'
     password='123456789'
-    base_url='https://portx.cc'
+    base_url='https://youyun789.com/'
     email = email.split('@')
     email = email[0] + '%40' + email[1]
     session = requests.session()
